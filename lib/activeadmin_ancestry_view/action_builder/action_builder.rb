@@ -3,8 +3,8 @@ module ActiveadminAncestryView
     DEFAULT_OPTIONS = {
       headers: '{ title: :id }',
       table: '{}',
-      no_color: 'false',
-      no_childless_link: 'false',
+      no_color: 'true',
+      no_childless_link: 'true',
       shift: '4'
     }
 
