@@ -2,5 +2,6 @@ en:
   activeadmin_ancestry_view:
     expand: Expand
     info: Info
+    
     errors:
       wrong_action: "Wrong action name. Allowed actions are: %{actions}"

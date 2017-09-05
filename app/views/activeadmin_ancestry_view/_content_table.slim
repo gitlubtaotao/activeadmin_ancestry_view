@@ -4,5 +4,5 @@ table
       - unless table.blank?
         - table.each do |header, content|
           th
-            =header.to_s + ': '
-            =resource.public_send(content)
+            = header.to_s + ': '
+            = resource.public_send(content)

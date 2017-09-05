@@ -1,5 +1,6 @@
 module AncestryView
   def ancestry_view(action_name, opt = {}, &block)
+    
     eval active_admin_action(action_name, opt, &block)
     eval active_admin_controller(action_name)
   end
