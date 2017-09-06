@@ -16,4 +16,4 @@ span
     a.view_link.member_link.show-childrens
       = headers[:expand] || t('activeadmin_ancestry_view.expand')
   - if is_edit
-    = link_to("编辑",edit_admin_cms_category_path(resource),class: "view_link member_link",style: "float: right;")  
+    = link_to("编辑",edit_resource_path(resource),class: "view_link member_link",style: "float: right;")  
